@@ -1,0 +1,48 @@
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  background: #111 !important;
+}
+
+.vc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hc {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.header-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-left a {
+  color: #fff !important;
+  transition: all 0.6s;
+  text-decoration: none;
+}
+
+.header-left a:hover {
+  color: #fff !important;
+  opacity: 0.9;
+  text-decoration: none;
+}

@@ -67,7 +67,7 @@ function getData(commaLvl = 4) {
 
       updateDate = new Date(resp.updated);
       let updateDiff = updateDate / 1000 - nowDate / 1000;
-      updated.innerText = `(Last updated at ${updateDate.toLocaleString(
+      updated.innerText = `(última vez actualizado a las ${updateDate.toLocaleString(
         undefined,
         options
       )})`;
@@ -78,7 +78,7 @@ function getData(commaLvl = 4) {
       )}%`;
     });
 }
-if(window.location.href === "https://coronatime.now.sh/" || window.location.href === "https://coronatime.now.sh") {
+if(window.location.href === "https://covid.leib.uy" || window.location.href === "https://covid.leib.uy") {
   link.setAttribute("href", "/most"); 
 }
 
